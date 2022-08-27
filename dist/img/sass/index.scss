@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+// 头部
+header{
+    // 版心
+       .center{
+        width: 1074px;
+        height: 80px;
+        line-height: 80px;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        // background-color: red;
+        p{
+            // font-size: 12px;
+            span{
+                // font-size: 12px;
+                color: gainsboro;
+            }
+        }
+       }
+}
+// 主体
+main{
+    //版心背景框
+    .bitmap{
+        
+        width: 1074px;
+        height: 42px;
+        background-color: #fafafa;
+        margin: 0 auto;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        //全选按钮
+        .check{
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            border: 1px solid grey;
+            margin-top: 9px;
+            margin-left: 7px;
+            float: left;
+        }
+        //分类
+        ul{
+            float: left;
+            height: 42px;
+            list-style: none;
+            li{
+                float: left;
+                font-size: 12px;
+                height: 42px;
+                line-height: 42px;  
+                color: #999999;             
+            }
+            .first{
+                margin-left:9px;
+            }
+            .second{
+                margin-left: 101px;
+            }
+            .third{
+                margin-left: 268px;
+            }
+            .forth{
+                margin-left: 176px;
+            }
+            .firth{
+                margin-left: 179px;
+            }
+            .sixth{
+                margin-left: 100px;
+            }
+        }
+    }
+    //商品介绍
+    .introduce{
+        width: 1074px;
+        height: 86px;
+        margin: 0 auto;
+        // background-color: skyblue;
+        border-bottom: 1px solid gray;
+        //左框
+        .introduce-left{
+            float: left;
+            width: 112px;
+            height: 86px;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+            //勾选框
+            .check{
+                width: 18px;
+                height: 18px;
+                border-radius: 50%;
+                border: 1px solid grey;
+                margin-top: 48px;
+                margin-left: 7px;
+                float: left;
+            }
+            //勾选框旁文字
+            p{
+                margin-top: 54px;
+                margin-left: 54px;
+            }
+        }
+        //右框
+        .introduce-right{
+            float: right;
+            width: 170px;
+            height: 86px;
+            .check{
+                width: 18px;
+                height: 18px;
+                border-radius: 50%;
+                border: 1px solid grey;
+                margin-top: 48px;
+                margin-left: 7px;
+                float: left;
+                text-align: center;
+                line-height: 18px;
+                color: #999999;
+            }
+            p{
+                margin-top: 50px;
+                margin-left: 30px;
+                color: #999999;
+            }
+        }
+    }
+    // 商品信息
+    .GoodsInfo{
+        width: 1074px;
+        height: 142px;
+        // background-color: yellow;
+        margin: 0 auto;
+       
+        border: 1px solid transparent;
+        box-sizing: border-box;
+         border-bottom: 1px solid gray;
+        // 勾选框
+        .check{
+                width: 18px;
+                height: 18px;
+                border-radius: 50%;
+                border: 1px solid grey;
+                margin-top: 83px;
+                margin-left: 7px;
+                float: left;
+                // text-align: center;
+                // line-height: 18px;
+        }
+        // 商品图
+        .image{
+            margin-top: 16px;
+            margin-left: 51px;
+            width: 60px;
+            height: 110px;
+            float: left;
+            img{
+                width:100%;
+                height: 100%;
+            }
+        }
+        // 商品名称
+        .shopname{
+            margin-top: 43px;
+            margin-left: 37px;
+            float: left;
+        }
+        // 单价
+        .monovalent{
+            float: left;
+            margin-left: 140px;
+            margin-top: 64px;
+        }
+        // 商品数量
+        .quantity{
+            margin-top: 56px;
+            margin-left: 94px;
+            width: 134px;
+            height: 32px;
+            float: left;
+            border: 1px solid gainsboro;
+            .quantity-left{
+                width: 32px;
+                height: 32px;
+                float: left;
+                text-align: center;
+                line-height: 32px;
+                font-size: 16px;
+                border-right: 1px solid gainsboro;
+            }
+            .quantity-right{
+                width: 32px;
+                height: 32px;
+                float: right;
+                text-align: center;
+                line-height: 32px;
+                font-size: 16px;
+                border-left: 1px solid gainsboro;
+            }
+        }
+        // 金额
+        .price{
+            margin-left: 128px;
+            float: left;
+            color: red;
+            margin-top: 64px;
+        }
+        // 操作
+        .operate{
+            float: left;
+            font-size: 30px;
+            margin-top: 50px;
+            margin-left: 83px;
+            color: #999999;
+             }
+        }
+    }
+footer{
+    margin-top: 100px;
+    .bitmip{
+        width: 1074px;
+        height: 80px;
+        // background-color: aquamarine;
+        margin:  0 auto;
+        .bitmip-left{
+            width: 880px;
+            height: 80px;
+            float: left;
+            background-color: #fafafa;
+            .check{
+                width: 18px;
+                height: 18px;
+                border-radius: 50%;
+                border: 1px solid grey;
+                margin-top: 27px;
+                margin-left: 7px;
+                float: left;
+                
+            }
+            .Text1{
+                float: left;
+                margin-top: 31px;
+                margin-left: 20px;
+            }
+            .Text2{
+                float: left;
+                margin-top: 31px;
+                margin-left: 22px;
+            }
+            .price{
+                float: right;
+                width: 150px;
+                height: 80px;
+                line-height: 80px;
+                text-align: center;
+                span{
+                    color: red;
+                }
+            }
+        }
+        .bitmip-right{
+            width: 194px;
+            height: 80px;
+            float: left;
+            background-color: #e7e7e7;
+            text-align: center;
+            line-height: 80px;
+            color: white;
+        }
+    }
+}

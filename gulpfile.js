@@ -41,4 +41,17 @@ let fnlib = () =>{
     return src('./src/lib/**/*')
     .pipe(dest('./dist/lib'));
 }
+function fnWatch(){
+    watch('./src/index.html',fnCopyIndex);
+    watch('./src/sass/**/*.scss',fncss);
+    watch('./src/html/**/*.html',fnHTML);
+    watch('./src/img/**/*',fnimg);
+    watch('./src/js/**/*.js',fnjs);
+    watch('./src/lib/**/*',fnlib);
+}
 exports.html = fnHTML;
+exports.css = fncss;
+exports.img = fnimg;
+exports.js = fnjs;
+exports.lib = fnlib;
+exports.default = fnWatch;
